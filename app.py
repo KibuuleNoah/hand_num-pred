@@ -56,5 +56,5 @@ def score():
     results = {"pred": pred}
     return flask.jsonify(results)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5002)
+#if __name__ == '__main__':
+#    app.run(host='0.0.0.0', port=5002)
